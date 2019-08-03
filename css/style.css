@@ -1,0 +1,1466 @@
+/* ----------------------------------------------------------------------------------------
+* Primary Style
+* ----------------------------------------------------------------------------------------
+*/
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700|Merriweather:300,300i,400,400i,700,700i,900,900i|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+/*font-family: 'Hind', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Merriweather', serif;*/
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+body {
+color: #444;
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+font-weight: 300;
+line-height: 30px;
+background:#fff;
+overflow-x:hidden;
+}
+html,
+body { height: 100% }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0px;
+  margin-top: 0px; 
+  color: #2b2b2b;
+  font-weight: 400;
+}
+a {
+font-family: 'Poppins', sans-serif;
+text-decoration: none;
+-webkit-transition: all 0.2s ease 0s;
+transition: all 0.2s ease 0s;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+p {
+  word-spacing: 1px;
+  margin: 0;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+* {
+  -moz-transition: all .4s cubic-bezier(.1,.7,.3,1);
+  -webkit-transition: all .4s cubic-bezier(.1,.7,.3,1);
+  -o-transition: all .4s cubic-bezier(.1,.7,.3,1);
+  -ms-transition: all .4s cubic-bezier(.1,.7,.3,1);
+  transition: all .4s cubic-bezier(.1,.7,.3,1);
+}
+body{
+	position: relative;
+}
+.btn.active.focus, 
+.btn.active:focus, 
+.btn.focus, 
+.btn:active.focus, 
+.btn:active:focus, 
+.btn:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.medicare-btn {
+  position: relative;
+  padding: 13px 32px 13px;
+  line-height: 24px;
+  background: #00bd86;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  border: 2px solid #00bd86;
+  outline: 0;
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  -webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.medicare-btn:hover {
+  background: none;
+  color: #00bd86;
+}
+/*----------------------------------
+		Header top CSS start
+----------------------------------*/
+.social{
+	height: 80px;
+}
+.social ul li a i{
+	margin-top: 21px;
+	width: 33px;
+	height: 37px;
+	border: 1px solid #2F3237;
+	text-align: center;
+	cursor: pointer;
+	color: #2F3237;
+	line-height: 37px;
+	font-size: 18px;
+}
+.social ul li a i:hover{
+	background-color: #00bd86;
+	border: 1px solid #00bd86;
+	color: #ffffff;
+}
+.clock span i{
+	font-size: 18px;
+	margin-top: 28px;
+	margin-right: 10px;
+}
+.clock span{
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 600;
+}
+#appoint-btn{
+	border-radius: 0px;
+	background-color: #00bd86;
+	margin-top: 22px;
+	border: 1px solid #00bd86;
+	color: #fff;
+	outline: 0;
+}
+#appoint-btn:focus{
+	border: 1px solid #00bd86;	
+}
+#element-4{
+	padding: 8px 0;
+	width: 100%;
+}
+#element-5{
+	padding: 8px 0;
+	width: 100%;
+}
+/*----------------------------------
+		Header top CSS End
+----------------------------------*/
+
+/*----------------------------------
+		Header menu CSS start
+----------------------------------*/
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 999;
+  }
+
+.affix + .container-fluid {
+      padding-top: 80px;
+      position: relative;
+  }
+.navbar-default{
+	background-color: rgba(7,8,6,1);
+	border-color: rgba(7,8,6,1);
+	border-radius: 0px;
+}
+.navbar {
+    min-height: 60px;
+    margin-bottom: 0px;
+    border: none;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    /*z-index: 999;*/
+}
+.navbar-default .navbar-nav>li>a:hover{
+	background-color: #00bd86;
+	color: #fff;
+}
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #00bd86;
+}
+.dropdown-menu>li>a {
+    padding: 10px 20px
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+	background-color: #00bd86;
+	color: #fff;
+}
+/*----------------------------------
+		header menu CSS End
+----------------------------------*/
+
+/*----------------------------------
+		banner CSS start
+----------------------------------*/
+
+.fade-carousel {
+    position: relative;
+    height: 650px;
+}
+.fade-carousel .carousel-inner .item {
+    height: 650px;
+}
+.fade-carousel .carousel-indicators{
+  top: 75%;
+}
+.fade-carousel .carousel-indicators > li {
+    margin: 0 4px;
+    background-color: #fff;
+    border-color: #00bd86;
+    opacity: 1;
+    width: 14px;
+    height: 14px;
+    border-radius: 0;
+}
+.fade-carousel .carousel-indicators > li.active {
+  width: 16px;
+  height: 16px;
+  opacity: 1;
+  background-color: #00bd86;
+}
+
+/********************************/
+/*          Hero Headers        */
+/********************************/
+.hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(0,0,0,.75);
+      -webkit-transform: translate3d(-50%,-50%,0);
+         -moz-transform: translate3d(-50%,-50%,0);
+          -ms-transform: translate3d(-50%,-50%,0);
+           -o-transform: translate3d(-50%,-50%,0);
+              transform: translate3d(-50%,-50%,0);
+}
+.hero h1 {
+    font-size: 4em;    
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.fade-carousel .carousel-inner .item .hero {
+    opacity: 0;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s; 
+}
+.fade-carousel .carousel-inner .item.active .hero {
+    opacity: 1;
+    -webkit-transition: 2s all ease-in-out .1s;
+       -moz-transition: 2s all ease-in-out .1s; 
+        -ms-transition: 2s all ease-in-out .1s; 
+         -o-transition: 2s all ease-in-out .1s; 
+            transition: 2s all ease-in-out .1s;    
+}
+.fade-carousel .carousel-inner .item .hero h1,
+.fade-carousel .carousel-inner .item .hero h3{
+	color: #ffffff;
+}
+.fade-carousel .carousel-inner .item .hero a{
+	margin: 20px 0;
+}
+/********************************/
+/*            Overlay           */
+/********************************/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #000;
+    opacity: .8;
+}
+
+/********************************/
+/*          Custom Buttons      */
+/********************************/
+.btn.btn-lg {padding: 10px 40px;}
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
+    color: #f5f5f5;
+    background-color: #00bd86;
+    border-color: #00bd86;
+    outline: none;
+    margin: 20px auto;
+    border-radius: 0px;
+}
+/*----------------------------------
+		banner CSS End
+----------------------------------*/
+
+/*----------------------------------
+		Appointment form CSS start
+----------------------------------*/
+
+.appointment-form{
+	margin-top: -120px;
+	background-color: #fff;
+	height: 300px;
+	position: relative;
+	margin-bottom: 100px;
+	box-shadow: 0 0 23px -7px #000;
+}
+.appointment-form h2{
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 50px;
+	padding-top: 25px;
+}
+.appointment-form input{
+	background-color: #F4F4F4;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+#dept{
+	padding: 16px 0;
+	background-color: #F4F4F4;
+	width: 100%;
+}
+#doc{
+	padding: 16px 0;
+	background-color: #F4F4F4;
+	width: 100%;
+}
+/*----------------------------------
+	Appointment form CSS End
+----------------------------------*/
+
+/*----------------------------------
+		About section CSS start
+----------------------------------*/
+.about{
+	margin-bottom: 100px;
+}
+.about-content p{
+	font-size: 24px;
+	font-weight: bold;
+}
+.about-content h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #00bd86;
+	margin-top: -8px;
+}
+.about-content blockquote{
+	font-size: 26px;
+	font-weight: bold;
+	color: #2F3237;
+	text-align: center;
+}
+.panel-collapse {
+    padding: 10px;
+}
+.abt-btn{
+	background-color: #fff;
+	border-radius: 0px;
+	border: 1px solid #00bd86;
+	color: #00bd86;
+	padding: 7px 13px;
+	transition: 1s;
+}
+.abt-btn:hover{
+	background-color: #00bd86;
+	color: #fff;
+}
+
+/*----------------------------------
+		About section CSS End
+----------------------------------*/
+
+/*----------------------------------
+		service section CSS start
+----------------------------------*/
+
+.service{
+	/*height: 750px;*/
+	background-color: #f4f4f4;
+	margin-bottom: 80px;
+}
+.section-heading{
+	text-align: center;
+}
+.section-heading h2{
+	font-size: 45px;
+	font-weight: 700;
+}
+.section-heading h2 span{
+	color: #00bd86;
+}
+.section-heading p{
+	font-size: 16px;
+	padding-bottom: 15px;
+}
+.service-item{
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 0 23px -7px #000;
+	transition: .5s;
+	margin-bottom: 25px;
+	color: #2F3237;
+	padding: 20px;
+}
+.service-item:hover{
+	background-color: #00bd86;
+	color: #fff;
+	cursor: pointer;
+}
+.service-item span i{
+	font-size: 60px;
+	color: #00bd86;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.service-item:hover i,
+.service-item:hover h2{
+	color: #fff;
+}
+.service-item h2{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+.service-item p{
+	font-size: 14px;
+	text-align: left;
+	padding: 15px;
+
+}
+.service-btn{
+	background-color: #00bd86;
+	border-radius: 0px;
+	border: 1px solid #00bd86;
+	margin-left: 45%;
+	font-size: 15px;
+	padding: 5px 35px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.service-btn:hover{
+	background-color: #fff;
+	color: #00bd86;
+	border: 1px solid #00bd86;
+}
+
+/*----------------------------------
+		service section CSS End
+----------------------------------*/
+
+/*----------------------------------
+		counter part CSS start
+----------------------------------*/
+
+.counter1{
+	background-image: url('../images/counter-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 300px;
+	margin-bottom: 80px;
+}
+.counter1-overlay{
+	height: 300px;
+	background-color: rgba(0,189,134,.8);
+}
+.counter-up{
+	text-align: center;
+	/*font-weight: bold;*/
+	color: #fff;
+}
+.counter-up i{
+	font-size: 80px;
+	margin: 30px 0 10px 0;
+}
+.counter-up span{
+	font-size: 60px;
+}
+.counter-up h4{
+	font-size: 24px;
+	font-weight: 600;
+}
+/*----------------------------------
+		counter part CSS End
+----------------------------------*/
+
+/*----------------------------------
+	department section CSS start
+----------------------------------*/
+.department{
+	margin-bottom: 100px;
+}
+.dept-icon{
+	font-size: 50px;
+}
+.tab-list{
+	text-align: center;
+	margin-bottom: 35px;
+}
+.tab-list li a{
+	font-size: 26px;
+	color: #2F3237;
+	border: 1px solid #00bd86;
+}
+.tab-list li a:hover{
+	background-color: #00bd86;
+	color: #fff;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover  {
+    color: #fff;
+    background-color: #00bd86;
+}
+.nav-tabs {
+    border-bottom: 1px solid #fff;
+}
+.dept1{
+	margin-left: 15px;
+	margin-right: 15px;
+	box-sizing: border-box;
+}
+.dept-feature i{
+	font-size: 20px;
+	margin-right: 15px;
+	padding-top: 50px;
+	color: #00bd86;
+}
+.dept-feature span{
+	font-size: 18px;
+}
+.dept-btn{
+	background-color: #00bd86;
+	border: 1px solid #00bd86;
+	border-radius: 0px;
+	padding: 5px 35px;
+	font-weight: 700;
+	margin-left: 45%;
+	margin-top: 25px;
+	
+}
+.dept-btn:hover{
+	background-color: #fff;
+	border: 1px solid #00bd86;
+	color: #00bd86;
+}
+/*----------------------------------
+	department section CSS end
+----------------------------------*/
+/*----------------------------------
+	doctor section CSS start
+----------------------------------*/
+
+.doctor{
+	/*height: 780px;*/
+	background-color: #f4f4f4;
+	margin-bottom: 80px;
+}
+
+.overlay1 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 375px;
+}
+.designation{
+	text-align: center;
+	height: 110px;
+	margin-top: -10px;
+}
+.designation h4{
+	padding-top: 25px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #00bd86;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+  text-align: center;
+  color: #fff;
+}
+.caption h4{
+	margin-top: 40%;
+  color: #fff;
+}
+.caption h5{
+	color: #fff;
+}
+.caption ul li a i{
+	margin-top: 21px;
+	width: 33px;
+	height: 37px;
+	border: 1px solid #fff;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	line-height: 37px;
+	font-size: 18px;
+}
+.caption ul li a i:hover{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #00bd86;
+}
+.overlay1:hover .caption {
+  width: 100%;
+  left: 0;
+  transition: .8s;
+}
+.doc-btn{
+	margin-top: 100px;
+	right: 50%;
+	background-color: #00bd86;
+	border: 1px solid #00bd86;
+	border-radius: 0px;
+	padding: 5px 35px;
+	font-weight: 700;
+	margin-left: 45%;
+	margin-bottom: 20px;
+}
+.doc-btn:hover{
+	background-color: #fff;
+	border: 1px solid #00bd86;
+	color: #00bd86;
+}
+.doctor-carousel .owl-dots{
+	bottom: -50px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+.doctor-carousel .owl-dot{
+	border: 1px solid #00bd86;
+	display: inline-block;
+	height: 25px;
+	width: 7px;
+	margin: 0 10px;
+}
+.doctor-carousel .owl-dot.active{
+	background: #00bd86 none repeat scroll 0 0;
+	height: 35px;
+}
+/*----------------------------------
+	doctor section CSS end
+----------------------------------*/
+/*----------------------------------
+	Appointment Ad CSS start
+----------------------------------*/
+.appointment-ad{
+	background-image: url('../images/app-ad.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	color: #fff;
+}
+.appointment-overlay{
+	height: 200px;
+	background-color: rgba(0,189,134,.7);
+
+}
+.appointment-ad h3{
+	padding-top: 5%;
+	font-size: 30px;
+	font-weight: 500;
+	color: #fff;
+}
+.appointment-ad h2{
+	padding-top: 5px;
+	font-size: 40px;
+	font-weight: 500;
+	color: #fff;
+}
+.appoint-btn{
+	margin-top: -7%;
+}
+.appoint-btn:hover{
+	color: #fff;
+	border: 2px solid #fff;
+}
+/*----------------------------------
+	Appointment Ad CSS end
+----------------------------------*/
+/*----------------------------------
+	gallery CSS start
+----------------------------------*/
+.gallery{
+	margin-top: 55px;
+}
+.tab-list-gallery{
+	text-align: center;
+	margin-bottom: 35px;
+}
+.tab-list-gallery li a{
+	font-size: 18px;
+	color: #2F3237;
+	border: 1px solid #00bd86;
+	margin-right: -31px;
+}
+.tab-list-gallery li a:hover{
+	background-color: #00bd86;
+	color: #fff;
+}
+.image-padding{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+/*----------------------------------
+	gallery CSS end
+----------------------------------*/
+
+/*----------------------------------
+	blog section CSS start
+----------------------------------*/
+.blog{
+	/*height: 500px;*/
+	background-color: #f4f4f4;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.blog-body{
+	background-color: #fff;
+	height: 250px;
+	/*margin-right: 15px;*/
+}
+.blog-body h2{
+	font-size: 20px;
+	font-weight: 700;
+}
+.blog-body span i{
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+.blog-body span strong{
+	color: #00bd86;
+}
+.blog-body p{
+	font-size: 13px;
+}
+.blog-img{
+	margin-left: -15px;
+}
+.btn-blog{
+	color: #2F3237;
+}
+.btn-blog:hover{
+	color: #00bd86;
+}
+.blog-btn{
+	background-color: #00bd86;
+	border: 1px solid #00bd86;
+	border-radius: 0px;
+	padding: 5px 35px;
+	font-weight: 700;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 45%;
+}
+.blog-btn:hover{
+	background-color: #fff;
+	border: 1px solid #00bd86;
+	color: #00bd86;
+}
+/*----------------------------------
+		blog section CSS end
+----------------------------------*/
+/*----------------------------------
+		sponsor CSS start
+----------------------------------*/
+.slider-active .owl-nav div{
+	background: #00bd86 none repeat scroll 0 0;
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px;
+	width: 40px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #fff;
+}
+.slider-active .owl-nav .owl-next{
+	left: auto;
+	right: 0px;
+}
+/*----------------------------------
+		sponsor CSS end
+----------------------------------*/
+/*----------------------------------
+	patient feedback CSS start
+----------------------------------*/
+.feedback{
+	margin-top: 80px;
+	margin-bottom: 130px;
+}
+.patient-feedback{
+	background-color: #fcfcfc;
+	padding-top: 20px;
+	text-align: center;
+}
+.patient-feedback img{
+	height: 140px;
+	max-width: 30%;
+	margin-left: 35%;
+}
+.patient-feedback p{
+	padding-top: 20px;
+}
+
+.img-rounded{
+	border-radius: 50%;
+}
+.feedback-carousel .owl-dots{
+	bottom: -50px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+.feedback-carousel .owl-dot{
+	border: 1px solid #00bd86;
+	/*background: #00bd86 none repeat scroll 0 0;*/
+	border-radius: 50%;
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+	margin: 0 10px;
+}
+.feedback-carousel .owl-dot.active{
+	background: #00bd86 none repeat scroll 0 0;
+
+}
+/*----------------------------------
+		patient feedback CSS end
+----------------------------------*/
+/*----------------------------------
+		contact section CSS start
+----------------------------------*/
+#element-1{
+	width: 100%;
+	padding: 13px 5px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	box-shadow: 0 0 4px 0 #000;
+	border: 0px solid #fff;
+}
+.contact-form{
+	height: 70px;
+	box-shadow: 0 0 4px 0 #000;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 5px;
+}
+.contact-form1{
+	height: 100px;
+	box-shadow: 0 0 4px 0 #000;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 20px;
+	padding-top: 5px;
+}
+/*----------------------------------
+	contact section CSS end
+----------------------------------*/
+/*----------------------------------
+	footer section CSS start
+----------------------------------*/
+
+.footer-top{
+	margin-top: 80px;
+	background-color: #2F3237;
+	padding: 40px 0;
+	color: #fff;
+}
+.footer-about h4{
+	font-weight: 700;
+	font-size: 24px;
+	color: #fff;
+}
+.footer-about p{
+	font-size: 12px;
+	padding-top: 20px;
+}
+.social-footer ul li a i{
+	margin-top: 21px;
+	width: 33px;
+	height: 37px;
+	border: 1px solid #2F3237;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	line-height: 37px;
+	font-size: 18px;
+}
+.social-footer ul li a i:hover{
+	background-color: #fff;
+	border: 1px solid #fff;
+	color: #00bd86;
+}
+.useful-link h4{
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+.useful-link p{
+	color: #fff;
+	padding: 7px 0;
+}
+.useful-link p a{
+	color: #fff;
+}
+.copyright{
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 500;
+}
+.instagram h4{
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 20px;
+	color: #fff;
+}
+
+/*----------------------------------
+	footer section CSS end
+----------------------------------*/
+
+
+/*   About page CSS start
+----------------------------------
+----------------------------------*/
+.about-banner{
+	background-image: url('../images/about-banner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 200px;
+	width: 100%;
+}
+.banner-overlay{
+	height: 200px;
+	background-color: rgba(0,0,0,.7);
+}
+.about-content h3{
+	margin-top: 0px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 200px;
+}
+.breadcrumb{
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+.breadcrumb li a{
+	color: #00bd86;
+	font-size: 14px;
+	font-weight: 600;
+}
+.breadcrumb .active{
+	color: #2F3237;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.appointment-forma{
+	background-color: #fff;
+	height: 300px;
+	position: relative;
+	margin-bottom: 100px;
+	box-shadow: 0 0 4px 0px #000;
+}
+.appointment-forma h2{
+	text-align: center;
+	font-size: 36px;
+	padding-bottom: 50px;
+	padding-top: 25px;
+}
+.appointment-forma input{
+	background-color: #F4F4F4;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 30px;
+}
+.service-about{
+	height: 650px;
+    background-color: #f4f4f4;
+    margin-bottom: 80px;
+}
+.service-itemw{
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 0 4px 0px #000;
+	transition: .5s;
+	margin-bottom: 25px;
+	color: #2F3237;
+}
+.service-itemw:hover{
+	background-color: #00bd86;
+	color: #fff;
+	cursor: pointer;
+}
+.service-itemw h2{
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+.service-itemw p{
+	font-size: 12px;
+	text-align: left;
+	padding: 15px;
+
+}
+.footer-topa{
+	background-color: #2F3237;
+	padding: 40px 0;
+	color: #fff;
+}
+.address h4{
+	color: #fff;
+	font-weight: 700;
+	font-size: 24px;
+	padding-bottom: 20px;
+}
+.address p{
+	color: #fff;
+	padding: 7px 0;
+	font-size: 18px;
+}
+.address p i{
+	margin-right: 15px;
+	font-size: 36px;
+}
+/*----------------------------------
+		About page CSS End
+----------------------------------*/
+/*----------------------------------
+		Service page CSS Start
+----------------------------------*/
+.servicea{
+	background-color: #f4f4f4;
+	padding: 50px 0;
+}
+.service-itema{
+	background-color: #fff;
+	text-align: center;
+	box-shadow: 0 0 4px 0px #000;
+	transition: .5s;
+	margin-bottom: 25px;
+	color: #2F3237;
+}
+.service-itema:hover{
+	background-color: #00bd86;
+	color: #fff;
+	cursor: pointer;
+}
+.service-itema span i{
+	font-size: 60px;
+	color: #00bd86;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.service-itema:hover i{
+	color: #fff;
+}
+.service-itema h2{
+	font-size: 30px;
+	font-weight: bold;
+}
+.service-itema p{
+	font-size: 12px;
+	text-align: left;
+	padding: 15px;
+}
+/*----------------------------------
+		Service page CSS end
+----------------------------------*/
+
+/*----------------------------------
+	Department page CSS Start
+----------------------------------*/
+.faq{
+	margin-bottom: 80px;
+}
+.about-content h2{
+	font-size: 30px;
+	font-weight: bold;
+	color: #00bd86;
+	margin-top: -8px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#counterd{
+	margin-top: 80px;
+}
+/*----------------------------------
+	Department page CSS end
+----------------------------------*/
+
+/*----------------------------------
+	Doctor page CSS Start
+----------------------------------*/
+.doctor1{
+	margin-bottom: 80px;
+}
+.doc-margin{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+/*----------------------------------
+	Doctor page CSS end
+----------------------------------*/
+
+/*----------------------------------
+	gallery page CSS start
+----------------------------------*/
+.gallery1{
+	margin-bottom: 80px;
+}
+/*----------------------------------
+	gallery page CSS end
+----------------------------------*/
+
+/*----------------------------------
+	blog page CSS start
+----------------------------------*/
+.single-blog {
+    margin-bottom: 40px;
+}
+.blog-middle{
+	margin-top: 20px;
+}
+.blog1{
+	margin-bottom: 0px;
+}
+.feedback1{
+	margin-top: 30px;
+	margin-bottom: 130px;
+}
+/*----------------------------------
+	blog page CSS end
+----------------------------------*/
+
+/*----------------------------------
+		blog detail page CSS start
+----------------------------------*/
+.asidebar input{
+	width: 88%;
+	padding: 5px 5px;
+}
+.asidebar button{
+	margin-top: -5px;
+}
+.category h4{
+	font-size: 20px;
+	font-weight: 600;
+	margin: 15px 0; 
+}
+.recent-post h4{
+	font-size: 20px;
+	font-weight: 600;
+	margin: 15px 0; 
+}
+.post{
+	margin-bottom: 10px;
+}
+.blog-detail{
+	margin-bottom: 80px;
+}
+.blog-description h2{
+	font-size: 24px;
+	font-weight: 700;
+}
+.blog-description p span{
+	margin-right: 10px;
+	font-size: 24px;
+}
+.blog-description p strong{
+	margin-right: 25px;
+}
+.comment h4{
+	font-size: 18px;
+}
+.comment input{
+	padding-right: 63px;
+	margin-bottom: 10px;
+}
+.blog-btn1{
+	background-color: #00bd86;
+	border-radius: 0px;
+	border: 1px solid #00bd86;
+}
+.blog-btn1:hover{
+	background-color: #fff;
+	border: 1px solid #00bd86;
+	color: #00bd86;
+}
+/*----------------------------------
+		blog detail page CSS end
+----------------------------------*/
+
+/*----------------------------------
+	TimeTable section CSS start
+----------------------------------*/
+* { box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+}
+
+/* ---- button ---- */
+
+.button {
+  display: inline-block;
+  padding: 10px 22px;
+  margin-bottom: 18px;
+  background: #EEE;
+  border: none;
+  border-radius: 7px;
+  background-image: linear-gradient( to bottom, hsla(0, 0%, 0%, 0), hsla(0, 0%, 0%, 0.2) );
+  color: #222;
+  font-family: sans-serif;
+  font-size: 18px;
+  text-shadow: 0 1px white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #8CF;
+  text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+  color: #222;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #28F;
+}
+
+.button.is-checked {
+  color: white;
+  text-shadow: 0 -1px hsla(0, 0%, 0%, 0.8);
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* ---- button-group ---- */
+
+.button-group:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.button-group .button {
+  float: left;
+  border-radius: 0;
+  margin-left: 0;
+  margin-right: 1px;
+}
+
+.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
+.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }
+
+/* ---- isotope ---- */
+
+.grid {
+  border: 1px solid #333;
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .element-item ---- */
+
+.element-item {
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 100px;
+  margin: 5px;
+  padding: 10px;
+  background: #888;
+  color: #262524;
+}
+.element-item h3, .element-item p{
+  font-size: 16px;
+}
+
+.element-item > * {
+  margin: 0;
+  padding: 0;
+}
+
+.element-item .name {
+  position: absolute;
+  top: 0px;
+  text-transform: none;
+  letter-spacing: 0;
+  /*font-size: 20px;*/
+  font-weight: normal;
+  color: white;
+}
+
+.element-item .symbol {
+  position: absolute;
+  top: 25px;
+  /*font-size: 18px;*/
+  font-weight: bold;
+  color: white;
+}
+
+.element-item .number {
+  position: absolute;
+  top: 50px;
+  color: white;
+}
+
+.element-item .weight {
+  position: absolute;
+  top: 76px;
+  /*font-size: 12px;*/
+  color: white;
+}
+
+.element-item.pediatric         { background: #00bd86; }
+.element-item.cardiology  { background: #8838A9;}
+.element-item.neurology      { background: #0283BC;}
+.element-item.dental        { background: #E81854;}
+.element-item.orthopedic      { background: #D38308;}
+.element-item.eye { background: #2F3237;}
+.element-item.medicine { background: #E2BFC2;}
+
+.timetable{
+	margin-bottom: 80px;
+}
+/*----------------------------------
+	TimeTable section CSS end
+----------------------------------*/
+
+/*----------------------------------
+		contact page CSS start
+----------------------------------*/
+
+.location{
+	height: 140px;
+	background-color: #f4f4f4;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.location span i{
+	font-size: 36px;
+	color: #00bd86;
+	margin-top: 10px;
+}
+.location h5{
+	font-size: 18px;
+}
+.heading{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 25px;
+}
+#contact-form{
+	margin-bottom: 80px;
+}
+#contact-form input{
+	width: 100%;
+	padding: 5px 15px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	border: 1px solid #aaa;
+}
+#contact-form textarea{
+	width: 100%;
+	padding: 10px 0 40px 15px;
+	border: 1px solid #aaa;
+}
+.btn-contact{
+	margin-top: 10px;
+	border-radius: 0px;
+	background-color: #00bd86;
+	font-weight: 600;
+	font-size: 16px;
+}
+.btn-contact:hover{
+	border: 1px solid #00bd86;
+	background-color: #fff;
+	color: #00bd86;
+}
+/*----------------------------------
+		contact page CSS end
+----------------------------------*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #00bd86;
+  color: white;
+  cursor: pointer;
+  padding: 10px 12px;
+  border-radius: 5000px;
+  box-shadow: 0 0px 10px #000;
+}
+
+#myBtn:hover {
+  background-color: #fff;
+  border: 1px solid #00bd86;
+  color: #00bd86;
+}

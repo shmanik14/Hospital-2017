@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Medicare Hospital</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="text/css" href="images/favicon.png">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+  	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700|Open+Sans:300,400,500,600,700,800" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<!-- ...................................
+	Header section HTML start
+	................................... -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-5">
+					<div class="social">
+						<ul class="list-inline">
+							<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-sm-4">
+					<div class="clock">
+						<span>
+							<i class="fa fa-clock-o" aria-hidden="true"></i> 
+							24/7 Hours Support
+						</span>
+					</div>
+				</div>
+
+				<div class="col-md-2 col-sm-3">
+					<div class="clock">
+						<span>
+							<i class="fa fa-phone" aria-hidden="true"></i> 
+							+123 456 7890
+						</span>
+					</div>
+				</div>
+				<div class="col-md-3 app-form">
+					<button type="button" class="btn btn-primary pull-right" id="appoint-btn" data-toggle="modal" data-target="#modal-1">MAKE AN APPOINTMENT</button>
+					<div class="modal" id="modal-1">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Appointment Form</h3>
+								</div>
+								<div class="modal-body">
+									<form action="">
+									<div class="form-group">
+										<label for="element-1">Name: </label>
+										<input type="text" class="form-control" placeholder="Your Name" id="element-1">
+									</div>
+									<div class="form-group">
+										<label for="element-2">Phone: </label>
+										<input type="text" class="form-control" placeholder="Your Phone Number" id="element-2">
+									</div>
+									<div class="form-group">
+										<label for="element-3">Date: </label>
+										<input type="date" class="form-control" placeholder="Your Name" id="element-3">
+									</div>
+									<div class="form-group">
+										<label for="element-4">Department: </label><br>
+										<select id="element-4">
+											<option>Select</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="element-5">Doctor: </label><br>
+										<select id="element-5">
+											<option>Select</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+										</select>
+									</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<a href="" class="btn btn-primary">Book An Appointment</a>
+									<a href="" class="btn btn-danger">Close</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav class="navbar navbar-default" data-spy="affix" data-offset-top="140">
+		  <div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html"><img src="images/white-logo.png" alt=""></a>
+		    </div>
+
+		    
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+		        <li><a href="about.html">About</a></li>
+		        <li class="dropdown">
+		          <a href="service.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Service <span class="glyphicon glyphicon-menu-down"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="service.html">Laboratory Test</a></li>
+		            <li><a href="service.html">Consultation</a></li>
+		            <li><a href="service.html">Medical Counseling</a></li>
+		            <li><a href="service.html">Broken Bones</a></li>
+		            <li><a href="service.html">Treatment Teeth</a></li>
+		            <li><a href="service.html">Eye Care</a></li>
+		            <li><a href="service.html">Treatment Teeth</a></li>
+		            <li><a href="service.html">Treatment Teeth</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="department.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Department <span class="glyphicon glyphicon-menu-down"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="department.html">Cardiology</a></li>
+		            <li><a href="department.html">Neurology</a></li>
+		            <li><a href="department.html">Laboratory</a></li>
+		            <li><a href="department.html">Dental</a></li>
+		            <li><a href="department.html">Eye Care</a></li>
+		            <li><a href="department.html">Emergency</a></li>
+		          </ul>
+		        </li>
+		        <li class="dropdown">
+		          <a href="doctor.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Doctor <span class="glyphicon glyphicon-menu-down"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="doctor.html">Action</a></li>
+		            <li><a href="doctor.html">Another action</a></li>
+		            <li><a href="doctor.html">Something else here</a></li>
+		            <li><a href="doctor.html">Separated link</a></li>
+		            <li><a href="doctor.html">One more separated link</a></li>
+		          </ul>
+		        </li>
+		        <li><a href="timetable.html">TimeTable</a></li>
+		        <li><a href="gallery.html">Gallery</a></li>
+		        <li><a href="blog.html">Blog</a></li>
+		        <li><a href="contact.html">Contact</a></li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	</header> 
+	<!-- ...................................
+	Header section HTML end
+	................................... -->
+
+	<section>
+		<div class="about-banner">
+			<div class="banner-overlay">
+				<div class="about-content">
+					<h3>Our Blog</h3>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<ol class="breadcrumb">
+			  <li><a href="index.html">Home</a></li>
+			  <li class="active">Blog</li>
+			</ol>
+		</div>
+	</section>
+
+	<section class="blog1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 single-blog">
+					<div class="row">
+						<div class="col-md-7 blog-body col-xs-12 col-sm-8">
+							<h2>The cost of drugs confounds this gastroenterologist</h2>
+							<div class="row">
+							<span class="col-md-4"><i class="fa fa-user" aria-hidden="true"></i><strong>Admin</strong></span>
+							<span class="col-md-4"><i class="fa fa-clock-o" aria-hidden="true"></i>07 Jan 17 </span>
+							<span class="col-md-4 pull-right"><i class="fa fa-comment-o" aria-hidden="true"></i>12</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitae eaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+							<a href="" class="btn btn-link btn-blog hidden-xs">Read More >></a>
+						</div>
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<img src="images/blog1.jpg" class="blog-img" alt="">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 single-blog">
+					<div class="row">
+						<div class="col-md-7 blog-body col-xs-12 col-sm-8">
+							<h2>What to Do When Postpartum Issues Hit</h2>
+							<div class="row">
+							<span class="col-md-4"><i class="fa fa-user" aria-hidden="true"></i><strong>Admin</strong></span>
+							<span class="col-md-4"><i class="fa fa-clock-o" aria-hidden="true"></i>07 Jan 17 </span>
+							<span class="col-md-4 pull-right"><i class="fa fa-comment-o" aria-hidden="true"></i>12</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitae eaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+							<a href="" class="btn btn-link btn-blog hidden-xs">Read More >></a>
+						</div>
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<img src="images/blog2.jpg" class="blog-img" alt="">
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row blog-middle">
+				<div class="col-md-6 single-blog">
+					<div class="row">
+						<div class="col-md-7 blog-body col-xs-12 col-sm-8">
+							<h2>What to Do When Postpartum Issues Hit</h2>
+							<div class="row">
+							<span class="col-md-4"><i class="fa fa-user" aria-hidden="true"></i><strong>Admin</strong></span>
+							<span class="col-md-4"><i class="fa fa-clock-o" aria-hidden="true"></i>07 Jan 17 </span>
+							<span class="col-md-4 pull-right"><i class="fa fa-comment-o" aria-hidden="true"></i>12</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitae eaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+							<a href="" class="btn btn-link btn-blog hidden-xs">Read More >></a>
+						</div>
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<img src="images/blog3.jpg" class="blog-img" alt="">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 single-blog">
+					<div class="row">
+						<div class="col-md-7 blog-body col-xs-12 col-sm-8">
+							<h2>It’s time to ban productivity from medicine</h2>
+							<div class="row">
+							<span class="col-md-4"><i class="fa fa-user" aria-hidden="true"></i><strong>Admin</strong></span>
+							<span class="col-md-4"><i class="fa fa-clock-o" aria-hidden="true"></i>07 Jan 17 </span>
+							<span class="col-md-4 pull-right"><i class="fa fa-comment-o" aria-hidden="true"></i>12</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitae eaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+							<a href="" class="btn btn-link btn-blog hidden-xs">Read More >></a>
+						</div>
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<img src="images/blog4.jpg" class="blog-img" alt="">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row blog-middle">
+				<div class="col-md-6 single-blog">
+					<div class="row">
+						<div class="col-md-7 blog-body col-xs-12 col-sm-8">
+							<h2>Why primary treatment is important?</h2>
+							<div class="row">
+							<span class="col-md-4"><i class="fa fa-user" aria-hidden="true"></i><strong>Admin</strong></span>
+							<span class="col-md-4"><i class="fa fa-clock-o" aria-hidden="true"></i>07 Jan 17 </span>
+							<span class="col-md-4 pull-right"><i class="fa fa-comment-o" aria-hidden="true"></i>12</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitae eaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+							<a href="" class="btn btn-link btn-blog hidden-xs">Read More >></a>
+						</div>
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<img src="images/blog5.jpg" class="blog-img" alt="">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 single-blog">
+					<div class="row">
+						<div class="col-md-7 blog-body col-xs-12 col-sm-8">
+							<h2>The cost of drugs confounds this gastroenterologist</h2>
+							<div class="row">
+							<span class="col-md-4"><i class="fa fa-user" aria-hidden="true"></i><strong>Admin</strong></span>
+							<span class="col-md-4"><i class="fa fa-clock-o" aria-hidden="true"></i>07 Jan 17 </span>
+							<span class="col-md-4 pull-right"><i class="fa fa-comment-o" aria-hidden="true"></i>12</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitae eaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+							<a href="" class="btn btn-link btn-blog hidden-xs">Read More >></a>
+						</div>
+						<div class="col-md-5 col-xs-12 col-sm-4">
+							<img src="images/blog6.jpg" class="blog-img" alt="">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="col-md-4 col-md-offset-4">
+				<ul class="pagination pagination-lg">
+					<li><a href="">&laquo;</a></li>
+					<li class="active"><a href="">1</a></li>
+					<li><a href="">2</a></li>
+					<li><a href="">3</a></li>
+					<li><a href="">4</a></li>
+					<li><a href="">5</a></li>
+					<li><a href="">&raquo;</a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="feedback1">
+		<div class="container">
+			<div class="section-heading">
+				<h2>What <span>Patients Says</span></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, veritatis repellat expedita tempore<br> repellendus quos, quis voluptatum iusto vitae eaque.</p>
+			</div>
+			<div class="owl-carousel feedback-carousel">
+			    <div class="item patient-feedback">
+			    	<img src="images/feedback1.jpg" alt="" class="img-rounded img-responsive">
+			    	<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitaeeaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+			    	<h4>Jesse Pinkman</h4>
+			    	<span>Businessman</span>
+			    </div>
+			    <div class="item patient-feedback">
+			    	<img src="images/feedback2.jpg" alt="" class="img-rounded img-responsive">
+			    	<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitaeeaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+			    	<h4>Walter White</h4>
+			    	<span>Businessman</span>
+			    </div>
+			    <div class="item patient-feedback">
+			    	<img src="images/feedback3.jpg" alt="" class="img-rounded img-responsive">
+			    	<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitaeeaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+			    	<h4>Jesse Pinkman</h4>
+			    	<span>Businessman</span>
+			    </div>
+			    <div class="item patient-feedback">
+			    	<img src="images/feedback4.jpg" alt="" class="img-rounded img-responsive">
+			    	<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitaeeaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+			    	<h4>Walter White</h4>
+			    	<span>Businessman</span>
+			    </div>
+			    <div class="item patient-feedback">
+			    	<img src="images/feedback5.jpg" alt="" class="img-rounded img-responsive">
+			    	<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitaeeaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+			    	<h4>Jesse Pinkman</h4>
+			    	<span>Businessman</span>
+			    </div>
+			    <div class="item patient-feedback">
+			    	<img src="images/feedback6.jpg" alt="" class="img-rounded img-responsive">
+			    	<p>Lorem ipsum dolor sit amet, consectetur adipi sicing elit. Cum, veritatis repellat expedita tempore repel lendus quos, quis voluptatum iusto vitaeeaque.Cum, veritatis repellat expedita tempore repel lendus quos.</p>
+			    	<h4>Walter White</h4>
+			    	<span>Businessman</span>
+			    </div>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="appointment-ad">
+			<div class="appointment-overlay">
+				<div class="container">
+					<h3>DO YOU WANT TO VISIT OUR HOSPITAL?</h3>
+					<h2>MAKE AN FREE APOINTMENT!</h2>
+					<button type="button" class="btn btn-primary pull-right appoint-btn" data-toggle="modal" data-target="#modal-1">MAKE AN APPOINTMENT</button>
+					<div class="modal" id="modal-1">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<h3 class="modal-title">Appointment Form</h3>
+								</div>
+								<div class="modal-body">
+									<form action="">
+									<div class="form-group">
+										<label for="element-1">Name: </label>
+										<input type="text" class="form-control" placeholder="Your Name" id="element-1">
+									</div>
+									<div class="form-group">
+										<label for="element-2">Phone: </label>
+										<input type="text" class="form-control" placeholder="Your Phone Number" id="element-2">
+									</div>
+									<div class="form-group">
+										<label for="element-3">Date: </label>
+										<input type="date" class="form-control" placeholder="Your Name" id="element-3">
+									</div>
+									<div class="form-group">
+										<label for="element-4">Department: </label><br>
+										<select id="element-4">
+											<option>Select</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+										</select>
+									</div>
+									<div class="form-group">
+										<label for="element-5">Doctor: </label><br>
+										<select id="element-5">
+											<option>Select</option>
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+											<option>4</option>
+											<option>5</option>
+											<option>6</option>
+											<option>7</option>
+											<option>8</option>
+										</select>
+									</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<a href="" class="btn btn-primary">Book An Appointment</a>
+									<a href="" class="btn btn-danger">Close</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer-topa">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 footer-about">
+					<h4>About Us</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis repellat fuga, eveniet quo inventore quibusdam, saepe ratione placeat nemo consequuntur, repudiandae praesentium a, beatae voluptas quos ipsum tempore officia eligendi?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis repellat fuga, eveniet quo inventore quibusdam, saepe ratione placeat nemo consequuntur, repudiandae praesentium a, beatae voluptas quos ipsum tempore officia eligendi?</p>
+					<div class="social-footer">
+						<ul class="list-inline">
+							<li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-skype" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							<li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-2 col-sm-4 useful-link">
+					<h4>Useful Link</h4>
+					<p><a href="">Appointment</a></p>
+					<p><a href="">Contact Us</a></p>
+					<p><a href="">Support Forum</a></p>
+					<p><a href="">Our Doctors</a></p>
+					<p><a href="">Our Department</a></p>
+				</div>
+				<div class="col-md-2 col-sm-4 useful-link">
+					<h4>Our Service</h4>
+					<p><a href="">Laboratory Test</a></p>
+					<p><a href="">Consultation</a></p>
+					<p><a href="">Eye Care</a></p>
+					<p><a href="">Cardiology</a></p>
+					<p><a href="">Neorulogy</a></p>
+				</div>
+				<div class="col-md-4 col-sm-4 address">
+					<h4>Address</h4>
+					<p><i class="fa fa-phone" aria-hidden="true"></i><span> +123 456 7890</span></p>
+					<p><i class="fa fa-envelope-o" aria-hidden="true"></i><span> support@medicare.com</span></p>
+					<p><i class="fa fa-map-marker" aria-hidden="true"></i><span> Park Drive, Varick Str New York,<br>NY 10012, USA</span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+		<div class="copyright">
+			<p>&copy Copyright by medicare 2017. All Right Reserved</p>
+		</div>
+
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/jquery.countTo.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

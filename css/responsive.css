@@ -1,0 +1,480 @@
+@media (min-width: 275px) and (max-width: 767px){
+	/*=============== home page ===============*/
+.appointment-form{
+	margin-top: -50px;
+	height: 100%;
+}
+.appointment-ad h2{
+	font-size: 35px;
+}
+.app-form{
+	float: left;
+	margin-bottom: 20px;
+}
+.navbar-brand img{
+	width: 160px;
+	margin-top: 5px;
+}
+.service-item p{
+	margin-top: -10px;
+}
+.tab-list li a{
+	font-size: 16px;
+}
+.fade-carousel .carousel-indicators{
+  top: 90%;
+}
+.abt-btn{
+	margin-left: 30%;
+}
+.service{
+	height: 100%;
+}
+.service-btn{
+	margin-left: 27%;
+}
+.service-item h2{
+	font-size: 20px;
+}
+.counter1{
+	height: 100%;
+}
+.counter1-overlay{
+	height: 100%;
+}
+.department .nav-tabs li{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dept-btn{
+	margin-left: 30%;
+}
+.doctor{
+	height: 100%;
+}
+.doc-btn{
+	margin-left: 30%;
+}
+.appointment-ad{
+	height: 100%;
+}
+.appointment-overlay{
+	height: 100%;
+}
+.appoint-btn{
+	margin-top: 0px;
+	margin-bottom: 25px;
+	float: left !important;
+	/*margin-left: 35%;*/
+}
+.panel-heading h4{
+	font-size: 15px;
+}
+.tab-list-gallery li a {
+    font-size: 12px;
+    /*margin-right: -25px;*/
+}
+.blog{
+	height: 100%;
+}
+.blog-btn{
+	margin-bottom: 20px;
+	margin-left: 35%;
+}
+.contact-form{
+	font-size: 18px;
+}
+.contact-form1{
+	font-size: 18px;
+}
+.footer-top{
+	height: 100%;
+}
+.copyright{
+	height: 100%;
+	font-size: 12px;
+}
+.copyright p{
+	font-size: 12px;
+}
+.appointment-forma{
+	height: 100%;
+}
+.service-about{
+	height: 100%;
+}
+.service-itemw h2{
+	font-size: 18px;
+}
+.footer-topa{
+	height: 100%;
+}
+.servicea{
+	height: 100%;
+}
+.service-itema h2{
+	font-size: 16px;
+}
+.asidebar{
+	margin-top: 20px;
+}
+.asidebar input{
+	width: 80%;
+}
+}/*end of max-width: 767px*/
+
+@media (min-width: 275px) and (max-width: 320px){
+
+.appointment-form{
+	margin-top: -50px;
+	height: 100%;
+}
+.app-form{
+	float: left;
+	margin-bottom: 20px;
+}
+.navbar-brand img{
+	width: 160px;
+	margin-top: 5px;
+}
+.service-item p{
+	margin-top: -10px;
+}
+.tab-list li a{
+	font-size: 16px;
+}
+.fade-carousel .carousel-indicators{
+  top: 90%;
+}
+.abt-btn{
+	margin-left: 30%;
+}
+.service{
+	height: 100%;
+}
+.service-btn{
+	margin-left: 27%;
+}
+.service-item h2{
+	font-size: 20px;
+}
+.counter1{
+	height: 100%;
+}
+.counter1-overlay{
+	height: 100%;
+}
+.department .nav-tabs li{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dept-btn{
+	margin-left: 30%;
+}
+.doctor{
+	height: 100%;
+}
+.doc-btn{
+	margin-left: 30%;
+}
+.appointment-ad{
+	height: 100%;
+}
+.appointment-overlay{
+	height: 100%;
+}
+.appoint-btn{
+	margin-top: 0px;
+	margin-bottom: 25px;
+	float: left !important;
+	/*margin-left: 35%;*/
+}
+.panel-heading h4{
+	font-size: 15px;
+}
+.tab-list-gallery li a {
+    font-size: 12px;
+    /*margin-right: -25px;*/
+}
+.blog{
+	height: 100%;
+}
+.blog-btn{
+	margin-bottom: 20px;
+	margin-left: 35%;
+}
+.contact-form{
+	font-size: 18px;
+}
+.contact-form1{
+	font-size: 18px;
+}
+.footer-top{
+	height: 100%;
+}
+.copyright{
+	height: 100%;
+	font-size: 12px;
+}
+.copyright p{
+	font-size: 12px;
+}
+}/*end of max-width: 320px*/
+
+@media (min-width: 321px) and (max-width: 480px){
+.element-item {
+  width: 140px;
+}
+.app-form{
+	float: left;
+	margin-bottom: 20px;
+}
+.hero h1 {
+    font-size: 3em;
+}
+.fade-carousel .carousel-indicators{
+  top: 90%;
+}
+.appointment-form{
+	margin-top: -50px;
+	height: 100%;
+}
+.btn-ban{
+	visibility: hidden;
+}
+.appointment-form h2{
+	font-size: 24px;
+	padding-bottom: 10px;
+}
+#dept{
+	margin-left: 0px;
+	width: 100%
+}
+#doc{
+	width: 100%;
+}
+.appointment-form input{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	/*margin-bottom: 30px;*/
+}
+.about-content blockquote{
+	font-size: 18px;
+}
+.service{
+	height: 100%;
+}
+.service-btn{
+	margin-left: 35%;
+}
+.service-item h2{
+	font-size: 24px;
+	font-weight: bold;
+}
+.counter1{
+	height: 100%;
+}
+.counter1-overlay{
+	height: 100%;
+}
+.nav-tabs li{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.tab-list li a {
+    font-size: 15px;
+}
+.dept-btn{
+	margin-left: 35%;
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+.appointment-ad{
+	height: 100%;
+}
+.appointment-overlay{
+	height: 100%;
+}
+.appointment-ad h3{
+	font-size: 20px;
+}
+.appointment-ad h3{
+	font-size: 25px;
+}
+.appoint-btn{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	float: left !important;
+	margin-left: 35%;
+}
+.tab-list-gallery li a{
+	margin-right: 0px;
+}
+.blog{
+	height: 100%;
+}
+.blog-img{
+	margin-left: 0px;
+}
+.blog-btn{
+	padding: 5px 35px;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 35%;
+}
+.contact{
+	height: 100%;
+}
+.footer-top{
+	height: 100%;
+}
+.useful-link p{
+	font-size: 12px;
+	color: #fff;
+	padding: 0px 0;
+}
+.copyright p{
+	font-size: 12px;
+}
+.doctor{
+	height: 100%;
+}
+.doc-btn{
+	margin-left: 35%;
+}
+.slider-active .owl-nav .owl-next{
+	left: auto;
+	right: 0px;
+	visibility: hidden;
+}
+
+
+}/*end of max-width: 420px*/
+@media (min-width: 421px) and (max-width: 640px){
+
+}/*end of max-width: 640px*/
+
+@media (min-width: 768px) and (max-width: 991px){
+.single-blog{
+		margin-top: 20px;
+}
+.servicea{
+	height: 100%;
+}
+.app-form{
+	float: right !important;
+	position: relative;
+	z-index: 99999;
+	margin-bottom: -48px;
+}
+#appoint-btn {
+    margin-top: 48px;
+}
+.navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+}
+.appointment-form{
+	margin-top: -80px;
+	height: 100%;
+}
+.fade-carousel .carousel-indicators{
+  top: 85%;
+}
+.service{
+	height: 100%;
+}
+/*.service-btn{
+	margin-left: 35%;
+}
+.service-item h2{
+	font-size: 24px;
+	font-weight: bold;
+}*/
+.counter1{
+	height: 100%;
+}
+.counter1-overlay{
+	height: 100%;
+}
+.doctor{
+	height: 100%;
+}
+.appoint-btn{
+	margin-top: 0px;
+	margin-bottom: 20px;
+	float: left !important;
+	margin-left: 35%;
+}
+.appointment-ad{
+	height: 100%;
+}
+.appointment-overlay{
+	height: 100%;
+}
+.blog{
+	height: 100%;
+}
+.footer-top{
+	height: 100%;
+}
+.useful-link h4{
+	font-size: 20px;
+	padding-bottom: 7px;
+}
+.contact-form1{
+	font-size: 18px;
+}
+.blog-body2{
+	margin-top: 20px;
+}
+.footer-topa{
+	height: 100%;
+}
+.appointment-forma{
+	height: 100%;
+}
+.service-about{
+	height: 100%;
+}
+.useful-link p{
+	font-size: 15px;
+}
+.address p{
+	font-size: 13px;
+}
+.asidebar{
+	margin-top: 20px;
+}
+.comment input{
+	padding-right: 52px;
+}
+
+}/*end of max-width: 991px*/
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+.comment input{
+	padding-right: 17px;
+}
+.navbar-brand img{
+	width: 160px;
+}
+.tab-list li a{
+	font-size: 16px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer-top{
+	height: 100%;
+}
+.footer-topa{
+	height: 100%;
+}
+.dept-feature span{
+	font-size: 14px;
+}
+}/*end of max-width: 1199px*/
